@@ -1,0 +1,16 @@
+/* ----------header---------- */
+header{background: #323333;}
+/* -----h-rtn----- */
+.h-rtn{cursor: pointer; width: 15px; height: 25px; background: url('../image/icon.png') -100px -50px no-repeat; position: absolute; left: 30px; top: 10px;}
+.h-rtn:hover{background: url('../image/icon.png') -150px -50px no-repeat;}
+/* -----/h-rtn----- */
+/* -----h-mid----- */
+.h-mid{font: 15px/1 '黑体'; top: 8px;}
+.h-mid input{color: #faf5f4; padding: 7px 10px; width: 345px; height: 28px; border: 1px solid #726966; background: #323333; border-radius: 1px;}
+.h-mid button{width: 21px; height: 21px; outline: none; border: none; background: url("../image/icon.png") 1px -450px no-repeat; position: absolute; top: 4px; left: 310px;}
+.h-mid button:hover{width: 21px; height: 21px; outline: none; border: none; background: url("../image/icon.png") -50px -450px no-repeat;}
+/* ----------/header---------- */
+/* ----------main---------- */
+main{width: 1024px; margin: 0 auto; height: 705px; background: url("../image/sousuo/sousuo-bg.png") 0 0 no-repeat; position: relative; overflow: hidden;}
+main img{width: 100%; position: absolute; top: 705px;}  /* 307px */
+/* ----------/main---------- */

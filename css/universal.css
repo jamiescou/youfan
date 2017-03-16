@@ -1,0 +1,40 @@
+/* ----------header---------- */
+header{width: 1024px; height: 44px; background: #323333; margin: 0 auto; position: relative;}
+/* -----h-menu----- */
+.h-menu{cursor: pointer; width: 24px; height: 24px; background: url('../image/icon.png') 0 0 no-repeat; position: absolute; left: 30px; top: 10px;}
+.h-menu:hover{background: url('../image/icon.png') -50px 0 no-repeat;}
+.menu-item{position: absolute; left: 0; top: 44px; width: 135px; z-index: 999; overflow: hidden; visibility: hidden;}
+.menu-item li a:link,
+.menu-item li a:visited{display: inline-block; width: 100%; font: 20px/41px "黑体"; color: white; text-align: center; height: 41px; background: #1c2427;}
+.menu-item li a:hover,
+.menu-item li a:active{background: #374950; color: #fae90b;}
+#menu-item_active{color: red;}
+#menu-item_active:hover{background: #1c2427; cursor: default;}
+
+.share:hover{background-position: -150px -150px;}
+.share-item{width: 85px; background: url("../image/xiangqing/share-bg.png") 0 0 no-repeat; position: absolute; z-index: 999; overflow: hidden; visibility: hidden;}
+.share-item li {height: 37px; margin-bottom: 1px;}
+.share-item li div{width: 25px; height: 25px; position: absolute; left: 9px;}
+.share-item li:first-child{margin-top: 10px;}
+.share-item li:first-child div{top: 19px; background: url("../image/icon.png") 0 -500px no-repeat;}
+.share-item li:first-child:hover div{top: 19px; background: url("../image/icon.png") -50px -500px no-repeat;}
+.share-item li:nth-child(2) div{top: 57px; background: url("../image/icon.png") 0 -550px no-repeat;}
+.share-item li:nth-child(2):hover div{top: 57px; background: url("../image/icon.png") -51px -550px no-repeat;}
+.share-item li:nth-child(3) div{top: 95px; background: url("../image/icon.png") 0 -600px no-repeat;}
+.share-item li:nth-child(3):hover div{top: 95px; background: url("../image/icon.png") -50px -600px no-repeat;}
+.share-item li a:link,
+.share-item li a:visited{display: inline-block; width: 45px; height: 100%; padding-left: 40px; color: #fff; font: 12px/37px "黑体";}
+.share-item li:first-child a:hover,
+.share-item li:first-child a:active{color: #00bd0b;}
+.share-item li:nth-child(2) a:hover,
+.share-item li:nth-child(2) a:active{color: #2b82d9;}
+.share-item li:nth-child(3) a:hover,
+.share-item li:nth-child(3) a:active{color: #f2151e;}
+/* -----h-mid----- */
+.h-mid{position: absolute; top: 13px; left: 50%; transform: translateX(-50%);}
+/* -----h-btn----- */
+.h-btn{float: right; margin-right: 30px; padding-top: 10px;}
+.h-btn li a{display: inline-block; width: 24px; height: 24px;}
+.h-btn li{width: 24px; height: 24px; float: left; cursor: pointer;}
+.h-btn li+li{margin-left: 40px;}
+/* ----------/header---------- */

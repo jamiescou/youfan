@@ -1,0 +1,72 @@
+/* ----------header---------- */
+/* -----h-rtn----- */
+.h-rtn{cursor: pointer; width: 15px; height: 25px; background: url('../image/icon.png') -100px -50px no-repeat; position: absolute; left: 30px; top: 10px;}
+.h-rtn:hover{background: url('../image/icon.png') -150px -50px no-repeat;}
+/* -----/h-rtn----- */
+/* -----h-mid----- */
+.h-mid{color: #fbfbfb; font: 17px/1 '黑体';}
+.h-mid h1{font-weight: normal;}
+/* -----h-btn----- */
+.h-btn li:first-child{width: 25px; background: url('../image/icon.png') 0 -50px no-repeat;}
+.h-btn li:first-child:hover{background: url('../image/icon.png') -50px -50px no-repeat;}
+.h-btn li:last-child{background: url('../image/icon.png') -100px -100px no-repeat;}
+.h-btn li:last-child:hover{background: url('../image/icon.png') -150px -100px no-repeat;}
+/* ----------/header---------- */
+/* ----------main---------- */
+main{width: 1024px; margin: 0 auto;}
+/* -----top----- */
+main .top{position: relative; border-bottom: 7px solid #DBDBDC;}
+main .top .bg{width: 100%; height: 150px; background: url('../image/wode/bg.png') 0 0 no-repeat;}
+main .top .portrait{width: 95px; height: 95px; border: 3px solid white; border-radius: 50%; overflow: hidden; position: absolute; left: 458px; top: 81px;}
+main .top .portrait img{margin-left: -4px; margin-top: -4px;}
+main .top .portrait:hover{border-color: #fae90b;  transition: 2.5s;}
+/* info */
+main .info{width: 100%; height: 108px;}
+main .info h3{font: normal 14px/1 "黑体"; padding: 55px 0 12px 495px;}
+main .info li{float: left; font: 12px/1 "黑体"; margin: 0 35px 0 0;}
+main .info li:first-child{margin-left: 395px;}
+/* info */
+/* -----/top----- */
+/* -----info----- */
+main .btm ul>li{width: 100%; height: 55px; color: #323333; border-bottom: 1px solid #efefef;}
+main .btm ul>li:first-child{height: 60px; line-height: 60px;}
+main .btm ul>li:nth-child(2){height: 80px;}
+/* a过渡 */
+main .btm a{transition: 0.3s;}
+/* li->a */
+main .btm ul>li>a:link,
+main .btm ul>li>a:visited{display: inline-block; width: 100%; height: 100%; font: 15px/55px "黑体";}
+main .btm ul>li>a:hover,
+main .btm ul>li>a:active{color: red; background: #eee;}
+/* /li->a */
+main .btm ul>li b{font-weight: normal; margin-left: 20px;}
+main .btm ul>li i{float: right; width: 9px; height: 16px; background: url('../image/icon.png') -150px -450px no-repeat; margin: 20px;}
+main .btm ul>li:first-child i{margin-top: 22px;}
+main .btm ul>li:nth-child(2){height: 80px;}
+main .btm ul>li span{float: right;}
+/* li->ol> */
+main .btm ol li{float: left;}
+main .btm ol li:first-child{margin-left: 45px;}
+main .btm ol li+li{margin-left: 137px;}
+main .btm ol li a:link,
+main .btm ol li a:visited{font: 15px/1 "黑体";}
+main .btm ol li a:hover,
+main .btm ol li a:active{color: #fae90b;}
+
+main .btm ol li div{width: 35px; height: 35px; margin: 16px 0 5px 0;}
+main .btm ol li:hover div{ transition: 0.4s ease-out;}
+main .btm ol li:nth-child(1) div{background: url('../image/icon.png') 0 -650px no-repeat;}
+main .btm ol li:nth-child(1):hover div{background: url('../image/icon.png') -50px -650px no-repeat;}
+main .btm ol li:nth-child(2) div{background: url('../image/icon.png') -100px -650px no-repeat; margin-left: 6px;}
+main .btm ol li:nth-child(2):hover div{background: url('../image/icon.png') -150px -650px no-repeat;}
+main .btm ol li:nth-child(3) div{background: url('../image/icon.png') 0 -700px no-repeat; margin-left: 6px;}
+main .btm ol li:nth-child(3):hover div{background: url('../image/icon.png') -50px -700px no-repeat;}
+main .btm ol li:nth-child(4) div{background: url('../image/icon.png') -100px -700px no-repeat; margin-left: 6px;}
+main .btm ol li:nth-child(4):hover div{background: url('../image/icon.png') -150px -700px no-repeat;}
+main .btm ol li:nth-child(5) div{background: url('../image/icon.png') 0 -750px no-repeat; margin-left: 6px;}
+main .btm ol li:nth-child(5):hover div{background: url('../image/icon.png') -50px -750px no-repeat;}
+main .btm ol li:nth-child(6) div{background: url('../image/icon.png') -100px -750px no-repeat; margin-left: 1px;}
+main .btm ol li:nth-child(6):hover div{background: url('../image/icon.png') -149px -750px no-repeat;}
+/* /li->ol> */
+/* -----/info----- */
+/* ----------/main---------- */

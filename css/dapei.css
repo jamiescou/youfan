@@ -1,0 +1,47 @@
+/* ----------header---------- */
+/* -----h-mid----- */
+.h-mid{color: #fbfbfb; font: 17px/1 '黑体';}
+.h-mid h1{font-weight: normal;}
+/* -----h-btn----- */
+.h-btn li:first-child{background: url('../image/icon.png') 0 -100px no-repeat;}
+.h-btn li:first-child:hover{background: url('../image/icon.png') -50px -100px no-repeat;}
+.h-btn li:last-child{background: url('../image/icon.png') -100px -100px no-repeat;}
+.h-btn li:last-child:hover{background: url('../image/icon.png') -150px -100px no-repeat;}
+/* ----------/header---------- */
+
+/* ----------nav---------- */
+nav{width: 1024px; height: 55px; border-bottom: 3px solid #a5aaaa; margin: 0 auto;}
+nav li{float: left;}
+nav li:first-child{margin-left: 32px;}
+nav li+li{margin-left: 85px;}
+nav a:link,
+nav a:visited{font: bold 17px/55px '黑体'; color: #323333; display: inline-block; width: 125px; height: 53px; text-align: center;}
+nav a:hover,
+nav a:active{color: #fae90b; border-bottom: 5px solid #323333; transition: 0.3s;}
+nav a.select{border-bottom: 5px solid #323333;}
+/* ----------/nav---------- */
+
+/* ----------main---------- */
+main{width: 1024px; margin: 12px auto 0;}
+.main-item{display: none;}
+.col{width: 238px; float: left; margin-left: 14px;}
+/* -----item-img----- */
+.col-item{margin-bottom: 20px;}
+.col-item .img-ctn img{width: 238px; transition: 0.5s;}
+.col-item .img-ctn img:hover{opacity: 0.7;}
+/* -----/item-img----- */
+/* -----item-info----- */
+.item-info{margin-top: 7px;}
+.item-info .link{cursor: pointer; float: left; width: 25px; height: 35px; background: url('../image/icon.png') 8px -245px no-repeat #313433; color: #b3aca9;}
+.item-info .link span{font: 12px/19px '黑体'; padding: 16px 0 0 6px; display: block;}
+.item-info .info-desc{float: left; margin-left: 16px;}
+.item-info .info-desc h3{font: normal 12px/1 '黑体'; text-align: center; margin: 2px auto 6px;}
+.item-info .info-desc i{display: inline-block; width: 62px; height: 1px; vertical-align: middle;}
+.item-info .info-desc i:first-of-type{background: url('../image/icon.png') 0 -800px no-repeat;}
+.item-info .info-desc i:last-of-type{background: url('../image/icon.png') -100px -800px no-repeat;}
+.item-info .info-desc a:link,
+.item-info .info-desc a:visited{color: #666; display: inline-block; width: 30px; padding-left: 25px; height: 12px; background: url('../image/icon.png') -42px -250px no-repeat;}
+.item-info .info-desc a:hover,
+.item-info .info-desc a:active{color: red;}
+/* -----/item-info----- */
+/* ----------/main---------- */

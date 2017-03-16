@@ -1,0 +1,68 @@
+/* ----------header---------- */
+/* -----h-rtn----- */
+.h-rtn{cursor: pointer; width: 15px; height: 25px; background: url('../image/icon.png') -100px -50px no-repeat; position: absolute; left: 30px; top: 10px;}
+.h-rtn:hover{background: url('../image/icon.png') -150px -50px no-repeat;}
+/* -----/h-rtn----- */
+/* -----h-mid----- */
+.h-mid{top: 7px;}
+.h-mid h1{width: 35px; height: 35px; background: url('../image/icon.png') -100px -450px no-repeat;}
+/* -----/h-mid----- */
+/* ----------/header---------- */
+/* ----------main---------- */
+main{width: 807px; margin: 0 auto; padding-top: 32px;}
+main .user-img{float: left; height: 440px; width: 360px; padding: 60px 0 0 50px; border-right: 1px solid #e8e6e6;}
+main .user-img-ctn{width: 285px; height: 285px; border: 2px solid #e8e8e7; font: 17px/1 "Microsoft YaHei"; letter-spacing: 5px;}
+main .user-img-ctn h1{font-weight: normal; margin-top: 19px; width: 285px;}
+main .user-img-ctn h1 span{float: right;}
+main .user-img img{width: 285px; height: 285px;}
+main .user-form{float: left; margin-left: 67px;}
+main .user-form h2{font: 17px/1 "黑体"; width: 325px; border-bottom: 1px solid #dddcdc; margin: 38px auto 40px auto; padding-bottom: 5px;}
+form{position: relative;}
+form .user-logo{width: 23px; height: 23px; background: url('../image/icon.png') 0 -350px no-repeat; position: absolute; left: 12px; top: 12px;}
+form .pw-logo{width: 23px; height: 23px; background: url('../image/icon.png') -50px -350px no-repeat; position: absolute; left: 12px; top: 105px;}
+/* -----input样式----- */
+input{display: block;}
+[type="text"],
+[type="password"]{margin-bottom: 40px; padding-left: 40px; width: 283px; height: 48px; border: 2px solid #b5b5b5; font: 15px/48px "黑体"; color: #666;}
+/* placeholder样式 */
+input::-webkit-input-placeholder{font: 15px/48px "黑体"; color: #666;}
+input::-moz-placeholder{font: 15px/48px "黑体"; color: #666;}
+/* /placeholder样式 */
+/* submit样式 */
+[type="submit"]{cursor: pointer; width: 325px; height: 50px; background: #323333; border: none; outline: none; color: #fff; font: 17px/50px '黑体';}
+[type="submit"]:hover{background: #414141;}
+[type="submit"]:active{background: #515151;}
+/* /submit样式 */
+[for="remb"]{font: 15px/1 "黑体"; color: #666;}
+[type="checkbox"]{display: inline-block;}
+/* btn-bottom */
+form .btn-bot{margin-top: 15px;}
+form .btn-bot span{font: 15px/1 "黑体"; color: #666;}
+form label{margin-right: 70px;}
+#fgt:link,
+#fgt:visited{font: 15px/1 "黑体"; color: #666;}
+#fgt:hover,
+#fgt:active{color: #000;}
+#sig:link,
+#sig:visited{font: 15px/1 "黑体"; color: #f2ba8a;}
+#sig:hover,
+#sig:active{color: #000;}
+/* /btn-bottom */
+/* -----/input样式----- */
+/* -----oth-login----- */
+.oth-login{margin-top: 45px; padding-top: 40px; position: relative; border-top: 1px dashed #dddcdc;}
+.oth-login span{font: 15px/1 "黑体"; color: #666; position: absolute; bottom: 5px;}
+.oth-login a{display: inline-block; width: 25px; height: 25px; position: absolute;}
+.oth-login a:nth-of-type(1){background: url('../image/icon.png') -100px -500px no-repeat; left: 220px; bottom: 0;}
+.oth-login a:nth-of-type(1):hover{background: url('../image/icon.png') -150px -500px no-repeat;}
+.oth-login a:nth-of-type(2){background: url('../image/icon.png') -100px -550px no-repeat; left: 262px; bottom: 0;}
+.oth-login a:nth-of-type(2):hover{background: url('../image/icon.png') -150px -550px no-repeat;}
+.oth-login a:nth-of-type(3){background: url('../image/icon.png') -100px -600px no-repeat; left: 303px; bottom: 0;}
+.oth-login a:nth-of-type(3):hover{background: url('../image/icon.png') -150px -600px no-repeat;}
+/* -----/oth-login----- */
+/* ----------/main---------- */
+
+/* ----------footer---------- */
+footer .bdr{width: 825px; height: 2px; background: url(../image/denglu/tiaotiao.png) 0 0 no-repeat; margin-bottom: 15px;}
+footer{width: 825px; margin: 0 auto; font: 13px/1 "黑体"; color: #807d7b; margin-top: 110px; }
+/* ----------/footer---------- */

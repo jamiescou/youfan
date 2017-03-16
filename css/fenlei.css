@@ -1,0 +1,38 @@
+/* ----------header---------- */
+/* -----h-mid----- */
+.h-mid{color: #fbfbfb; font: 17px/1 '黑体';}
+.h-mid h1{font-weight: normal;}
+/* -----h-btn----- */
+.h-btn li:first-child{background: url('../image/icon.png') 0 -100px no-repeat;}
+.h-btn li:first-child:hover{background: url('../image/icon.png') -50px -100px no-repeat;}
+.h-btn li:last-child{background: url('../image/icon.png') -100px -100px no-repeat;}
+.h-btn li:last-child:hover{background: url('../image/icon.png') -150px -100px no-repeat;}
+/* ----------/header---------- */
+
+/* ----------nav---------- */
+nav{width: 1024px; height: 55px; border-bottom: 3px solid #a5aaaa; margin: 0 auto;}
+nav li{float: left;}
+nav li:first-child{margin-left: 77px;}
+nav li+li{margin-left: 8px;}
+nav a:link,
+nav a:visited{font: bold 17px/55px '黑体'; color: #323333; display: inline-block; width: 124px; height: 53px; text-align: center;}
+nav a:hover,
+nav a:active{color: #fae90b; border-bottom: 5px solid #323333; transition: 0.3s;}
+nav a.select{border-bottom: 5px solid #323333;}
+/* ----------/nav---------- */
+
+/* ----------main---------- */
+main{width: 1022px; padding-left: 2px; margin: 12px auto 0;}
+.main-item{display: none;}
+.ctn{width: 241px; height: 292px; float: left; margin-left: 12px; margin-bottom: 20px; color: #323333;}
+.ctn .img-ctn{width: 237px; height: 238px; border: 2px solid #cccacb; overflow: hidden;}
+.ctn .img-ctn img{width: 100%; height: 100%; transition: 0.7s;}
+.ctn .img-ctn img:hover{transform: scale(1.3);}
+.ctn h2{font: 13px/1 '黑体'; text-align: center; line-height: 27px; width: 197px; border-bottom: 1px dashed #d0ccca; margin: 0 auto;}
+.ctn div{width: 103px; margin: 8px auto 0;}
+.ctn span{font: 14px/16px '黑体';}
+.ctn div a:link,
+.ctn div a:visited{display: inline-block; color: #323333; padding-left: 26px; margin-left: 12px; border-left: 1px solid #958e8b; background: url('../image/icon.png') 11px -150px no-repeat;}
+.ctn div a:hover,
+.ctn div a:active{color: red; background: url('../image/icon.png') -39px -150px no-repeat;}
+/* ----------/main---------- */
