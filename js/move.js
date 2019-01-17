@@ -1,5 +1,5 @@
 /**
- * Created by wq on 2016/6/19.
+ * Created by zzm on 2016/6/19.
  */
 
 /* startMove(obj, {attr1:itarget1, attr2:itarget2}, speed, fn) */
