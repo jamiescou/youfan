@@ -1,5 +1,5 @@
 /**
- * Created by wq on 2016/6/23.
+ * Created by zzm on 2016/6/23.
  */
 var oSch = document.getElementsByTagName("input")[0];
 var oKeyBd = document.getElementsByTagName("img")[0];
